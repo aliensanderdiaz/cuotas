@@ -4,8 +4,8 @@ function pintar() {
     let apostar = document.querySelector('#apostar').value || 5
     let ganar = document.querySelector('#ganar').value || 50
 
-    for (let j = 6; j <= 25; j++) {
-        if (j == 6) {
+    for (let j = 1; j <= 25; j++) {
+        if (j == 1) {
             html += `
                 <div class="row border-bottom fw-bold">
                     <div class="col"></div>
